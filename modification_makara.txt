@@ -1,0 +1,47 @@
+Le dossier .pdf se trouve dans le dossier download pour Win10
+Vérifier la bdd
+Insertion patient avec nom en majuscule et prénom avec la première lettre en majuscule
+Id mit en incrémentielle pour la cohérence des données 
+Nommage "yyyyMMdd_Demandes_Paticulieres.pdf"
+
+//Ajouter un patient
+ private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {                                      
+        int noservice = jComboBox2.getSelectedIndex();
+        Object service = jComboBox2.getModel().getElementAt(noservice);
+        Service unService = (Service) service;
+
+        try {
+            Patient unPatient = new Patient(Passerelle.lastId()+1, Integer.parseInt(nbchambre.getText()), nom.getText(), prenom.getText(), noservice);
+
+            Passerelle.creerPatient(unPatient);
+
+            int ListeR = jComboBox1.getSelectedIndex();
+            Object r = jComboBox1.getModel().getElementAt(ListeR);
+            Repas unRepas = (Repas) r;
+
+            Passerelle.commander(unPatient, unRepas);
+            JOptionPane.showMessageDialog(this, "Le nouveau patient a été crée et sa commande a été enregistrée !");
+
+            //Refresh
+            DemandeP dp = new DemandeP();
+            this.dispose();
+            dp.setLocationRelativeTo(null);
+            dp.show();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(this, "Une erreur est survenue lors de la saisie.\n\nVeuillez vérifier que les informations sont correctement remplies.");
+        }
+    }               
+
+//Retour
+  private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {                                    
+        MenuPersonnel mp = new MenuPersonnel();
+        this.dispose();
+        mp.setLocationRelativeTo(null);
+        mp.show();    }       
+
+//Refresh
+private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {                                    
+        DemandeP dp = new DemandeP();
+        this.dispose();
+        dp.setLocationRelativeTo(null);
+        dp.show();    }                           

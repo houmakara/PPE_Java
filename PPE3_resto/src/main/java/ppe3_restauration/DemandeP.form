@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rafra&#xee;chir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu1MouseClicked"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Retour"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu2MouseClicked"/>
+          </Events>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="933" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTitre">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Berlin Sans FB" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DEMANDE PARTICULIERE"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="640" y="50" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JSplitPane" name="splitPaneDemandeP">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="28" y="120" width="890" height="450"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panelChoix">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                  <JSplitPaneConstraints position="left"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblChoix" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnNonexist" alignment="0" pref="120" max="32767" attributes="0"/>
+                              <Component id="btnExist" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="lblChoix" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="btnNonexist" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                          <Component id="btnExist" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="203" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblChoix">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CHOIX "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnExist">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Existant"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnExistMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnNonexist">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Non existant"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnNonexistMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panelDemandeP">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                  <JSplitPaneConstraints position="right"/>
+                </Constraint>
+              </Constraints>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="panelExist">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblPatient" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="comboBoxPatient" min="-2" pref="200" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="lblRepasExist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="comboBoxRepasExist" min="-2" pref="200" max="-2" attributes="0"/>
+                              <EmptySpace min="21" pref="157" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace pref="263" max="32767" attributes="0"/>
+                              <Component id="lblExist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="259" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnValiderExist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="lblExist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="comboBoxPatient" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPatient" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblRepasExist" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboBoxRepasExist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="276" max="32767" attributes="0"/>
+                              <Component id="btnValiderExist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblExist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CHOIX : POUR UN PATIENT EXISTANT"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="comboBoxPatient">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Item 1"/>
+                            <StringItem index="1" value="Item 2"/>
+                            <StringItem index="2" value="Item 3"/>
+                            <StringItem index="3" value="Item 4"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblPatient">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Patient :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblRepasExist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Repas :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="comboBoxRepasExist">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Item 1"/>
+                            <StringItem index="1" value="Item 2"/>
+                            <StringItem index="2" value="Item 3"/>
+                            <StringItem index="3" value="Item 4"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnValiderExist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="VALIDER"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnValiderExistMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="panelNonexist">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnValiderNonexist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblNonexist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblRepasNonexist" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblIdservice" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblIdchambre" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNom" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtChambre" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="comboBoxRepasNonexist" alignment="0" pref="130" max="32767" attributes="0"/>
+                                  <Component id="comboBoxServiceNonexist" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtNom" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="lblPrenom" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtPrenom" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="lblNonexist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPrenom" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtPrenom" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblIdchambre" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtChambre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblIdservice" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboBoxServiceNonexist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblRepasNonexist" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboBoxRepasNonexist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="138" max="32767" attributes="0"/>
+                              <Component id="btnValiderNonexist" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="btnValiderNonexist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="VALIDER"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnValiderNonexistMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblNonexist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CHOIX : PATIENT NON EXISTANT"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblNom">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nom :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblPrenom">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Pr&#xe9;nom :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblIdchambre">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="N&#xb0; Chambre :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblIdservice">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="N&#xb0; Service :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblRepasNonexist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Repas :"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="comboBoxRepasNonexist">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Item 1"/>
+                            <StringItem index="1" value="Item 2"/>
+                            <StringItem index="2" value="Item 3"/>
+                            <StringItem index="3" value="Item 4"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="comboBoxServiceNonexist">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Item 1"/>
+                            <StringItem index="1" value="Item 2"/>
+                            <StringItem index="2" value="Item 3"/>
+                            <StringItem index="3" value="Item 4"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtChambre">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtNom">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtPrenom">
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+              <LayoutCode>
+                <CodeStatement>
+                  <CodeExpression id="1_panelDemandeP">
+                    <CodeVariable name="panelDemandeP" type="8194" declaredType="javax.swing.JPanel"/>
+                    <ExpressionOrigin>
+                      <ExpressionProvider type="ComponentRef">
+                        <ComponentRef name="panelDemandeP"/>
+                      </ExpressionProvider>
+                    </ExpressionOrigin>
+                  </CodeExpression>
+                  <StatementProvider type="CodeMethod">
+                    <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                  </StatementProvider>
+                  <Parameters>
+                    <CodeExpression id="2">
+                      <ExpressionOrigin>
+                        <ExpressionProvider type="CodeConstructor">
+                          <CodeConstructor class="javax.swing.OverlayLayout" parameterTypes="java.awt.Container"/>
+                        </ExpressionProvider>
+                        <Parameters>
+                          <CodeExpression id="1_panelDemandeP"/>
+                        </Parameters>
+                      </ExpressionOrigin>
+                    </CodeExpression>
+                  </Parameters>
+                </CodeStatement>
+              </LayoutCode>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblBackground">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1" y="-4" width="930" height="590"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

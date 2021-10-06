@@ -1,0 +1,12 @@
+Pour utiliser le .jar :
+
+	Avec l'invité de commande :
+		Acceder au dossier target et taper la commande
+			" java -jar PPE3_resto-1.0-SNAPSHOT-jar-with-dependencies.jar"
+		Attention il faut faire attention a bien éxecuté le jar-with-dependencies.
+	Sans l'invité de commande :
+		Double-clic sur le .jar
+
+Le .pdf se trouve dans le dossier fichier/pdf/demandes_particulier.pdf
+
+PAS DE NOM ET DE NUM PATIENT DANS LE PDF (pas encore fait)
